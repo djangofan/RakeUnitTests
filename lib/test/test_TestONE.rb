@@ -8,7 +8,7 @@ class TestONEClass < TestSuiteBase
     puts "Start TestONE..."
  
     ARGV.options do |opt|
-      puts "Option:"
+      print "Option: "
       puts opt
     end
     
