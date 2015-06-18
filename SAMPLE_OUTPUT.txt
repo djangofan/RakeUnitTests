@@ -1,0 +1,39 @@
+
+TEST OUTPUT
+-----------------
+
+$ rake test
+c:/Ruby22-x64/bin/ruby.exe -I"lib"  "c:/Ruby22-x64/lib/ruby/2.2.0/rake/rake_test_loader.rb" "lib/test/test_TestONE.rb" "lib/test/test_TestTWO.
+rb"
+Loaded suite c:/Ruby22-x64/lib/ruby/2.2.0/rake/rake_test_loader
+Started
+.F
+===============================================================================
+Failure:
+  Failed a test.
+  <false> is not true.
+test_TestTWO(TestTWOClass)
+c:/Temp/RakeUnitTests/lib/test/test_TestTWO.rb:9:in `test_TestTWO'
+      6:
+      7:     sleep(2)
+      8:
+  =>  9:     assert false, "Failed a test."
+     10:
+     11:   end
+     12:
+===============================================================================
+
+
+Finished in 5.056505 seconds.
+
+2 tests, 2 assertions, 1 failures, 0 errors, 0 pendings, 0 omissions, 0 notifications
+50% passed
+
+0.40 tests/s, 0.40 assertions/s
+rake aborted!
+Command failed with status (1): [ruby -I"lib"  "c:/Ruby22-x64/lib/ruby/2.2.0/rake/rake_test_loader.rb" "lib/test/test_TestONE.rb" "lib/test/te
+st_TestTWO.rb" ]
+
+Tasks: TOP => test
+(See full trace by running task with --trace)
+
