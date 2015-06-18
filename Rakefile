@@ -6,4 +6,5 @@ Rake::TestTask.new do |t|
   t.name = "test"
   t.test_files = FileList['lib/test/test*.rb']
   t.verbose = true
+  t.options = "test1 test2"
 end
