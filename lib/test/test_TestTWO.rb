@@ -1,4 +1,4 @@
-require_relative "../lib/test_suite_base.rb"
+require_relative "../test_suite_base.rb"
 
 class TestTWOClass < TestSuiteBase
 
